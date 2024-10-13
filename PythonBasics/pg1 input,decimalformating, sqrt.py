@@ -19,5 +19,5 @@ sum = float(num1) + float(num2)
 # printing sum of above 2 numbers
 print('The sum of {0} and {1} is {2}'.format(num1, num2,sum))
 # printing sum of 2 numbers using another way
-print('The sum is %.1f' %(float(input('Enter 1st number: ')) + int(input("Enter 2nd number: "))))
+print('The sum is %.1f' %( float(input('Enter 1st number: ')) + int(input("Enter 2nd number: "))) )
 
