@@ -9,7 +9,7 @@ b = 1
      b+=1
 
 """
-from ctypes import c_int
+
 
 d = -55
 print(abs(d)) #absolute value
