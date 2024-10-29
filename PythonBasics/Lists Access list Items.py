@@ -21,7 +21,7 @@ print(f"last 3 values: {list2[-3:]}")
 print(f"2 values before last index: {list2[-3:-1]} \n")
 
 list3 = [True,45,False,False,"mall",'alone']
-print(list3)
+print(f" list3: {list3}")
 
 list5 = list(('my','me')) # list5 is 'list'
 print(type(list5))
@@ -29,3 +29,4 @@ print(f'index 0 value: {list5[0]} \n')
 
 list4 = ('English','Spanish','Russian') # list4 is a 'tuple'
 print(f'type of list4 variable: {type(list4)} \n') 
+print(f" tuple: {list4}")
