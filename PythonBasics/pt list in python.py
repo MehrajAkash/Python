@@ -7,7 +7,7 @@ print('list: ',listnum)
 for num in listnum:
     sum = sum + int(num)
 
-print("Sum of numbers: ",sum)    
+print("Sum of numbers : ",sum)    
 
 
 numwords = 0
