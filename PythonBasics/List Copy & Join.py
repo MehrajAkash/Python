@@ -6,3 +6,4 @@ print(mylist)
 thislist = ['animal',4,'people']
 mylist = list(thislist)
 print(mylist)
+
