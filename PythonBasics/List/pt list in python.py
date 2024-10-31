@@ -14,6 +14,7 @@ numwords = 0
 numletters = 0
 numdigits = 0
 text = input('Enter a text: ')
+print(type(text))
 for x in text:
     x = x.lower()
     if x >= 'a' and x <= 'z':
