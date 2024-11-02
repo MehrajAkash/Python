@@ -8,13 +8,13 @@ fruits = ('mango','strawberry','apple','cherry','banana')
 (g,y,*r) = fruits
 print(g)
 print(y)
-print(r)
+print(r) # ['apple', 'cherry', 'banana']
 
 print()
 fruits = ('mango','strawberry','apple','cherry','banana')
 (g,*y,r) = fruits
 print(g)
-print(y)
+print(y) # ['strawberry', 'apple', 'cherry']
 print(r)
 
 

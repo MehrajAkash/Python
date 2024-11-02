@@ -7,7 +7,7 @@ y[0] = "kiwi"
 x = tuple(y)
 print(x) # ('kiwi', 'banana', 'cherry')  -> tuple
 
-# ********* Add items *************
+# ********* Add items converting into list *************
 thistuple = ("Mango","Stravery")
 y = list(thistuple)
 y.append("Orange")
@@ -18,5 +18,6 @@ print(thistuple) # ('Mango', 'Stravery', 'Orange', 'Palm')
 # ********* Add another tuple**************
 thistuple = ('Orange', 'Palm')
 y = ('coconut','kiwi')
-thistuple = thistuple + y
-print(thistuple)
+thistuple += y    # thistuple = thistuple + y
+print(thistuple)  # ('Orange', 'Palm', 'coconut', 'kiwi')
+
