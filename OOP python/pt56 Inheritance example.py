@@ -22,5 +22,3 @@ tr = triangle(10,20)
 tr.area()
 rt = rectangle(20,20)
 rt.area()
-
-    
