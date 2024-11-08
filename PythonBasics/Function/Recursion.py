@@ -1,13 +1,13 @@
 
-def tri_recursion(k):
-    if(k>0):
-        result = k + tri_recursion(k-1)
-        print(result)
-        
-    else:
-        result = 0
 
-    return result        
+def functionn(m):
+    if(m<1) and (m>7): return
 
-print("Recursion Example Results: ")
-tri_recursion(6)
+    functionn(m-1)
+    print(m)
+    functionn(m+1)
+
+    return m 
+
+print("hello11")
+functionn(5)
